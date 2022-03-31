@@ -8,3 +8,5 @@ mongoose.connect(DB_CONNECTION, () => {
 	console.log("connected");
 	server.listen(PORT, () => console.log("listening"));
 });
+
+//mongodb://localhost/RandomFacts
