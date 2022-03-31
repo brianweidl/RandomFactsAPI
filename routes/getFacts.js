@@ -92,12 +92,12 @@ router.get("/topic/:topic", async (req, res) => {
 });
 
 router.get("/subtopic/:subtopic", async (req, res) => {
-	const { subTopic } = req.params;
+	const subTopic = req.params.subtopic;
 	if (!Object.keys(req.query).length) {
 		try {
 			const fact = await Fact.aggregate([
 				{
-					$match: { subTopic: subTopic },
+					$match: { subtopic: subTopic },
 				},
 				{
 					$project: {
@@ -120,7 +120,7 @@ router.get("/subtopic/:subtopic", async (req, res) => {
 	try {
 		const facts = await Fact.aggregate([
 			{
-				$match: { subTopic: subTopic },
+				$match: { subtopic: subTopic },
 			},
 			{ $sample: { size: count } },
 			{
