@@ -9,6 +9,9 @@ const bodyParser = require("body-parser");
 const server = express();
 server.use(bodyParser.json());
 
+server.get("/", (req, res) => {
+	res.send("Welcome to the Random Facts API");
+});
 server.use("/get", getRoutes);
 server.use("/post", postRoutes);
 server.use("/update", updateRoutes);
