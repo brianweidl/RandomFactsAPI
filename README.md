@@ -139,5 +139,6 @@ Response for Delete operations:
 
     Deleted Documents: <integer>
 
-
+<br>
+<br>
 Thanks for reading and hope you enjoy the RandomFacts API!
