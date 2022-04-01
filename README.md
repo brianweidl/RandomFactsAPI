@@ -1,17 +1,26 @@
 # RandomFactsAPI
 <img width="200px" src="https://cdn-icons-png.flaticon.com/512/246/246569.png"/>
 
-RandomFacts is an application programming interface build with Node.js, Express and MongoDB, made with CRUD operations in mind. You can get facts about different topics and subtopics.
+RandomFacts is an application programming interface build with Node.js, Express and MongoDB, made with CRUD operations in mind.
+<br>
+You can get facts about different topics and subtopics.
+<br>
+<br>
 Topics available: Sports and science 
-Subtopics available: Football, basketball, olympics, space, humans, animals,stats
-
+<br>
+<br>
+Subtopics available: Football, basketball, olympics, space, humans, animals, stats
+<br>
+<br>
 RandomFacts is fully deployed, try it with this url: https://randomfacts-api.herokuapp.com/
 <br>
 <br>
-This API is also deployed adn available in RapidAPI: https://rapidapi.com/brianweidl/api/random-facts4/
+This API is also deployed and available in RapidAPI: https://rapidapi.com/brianweidl/api/random-facts4/
+
+<br>
 
 
-Check the endpoints!
+Check the endpoints down below!
 
 
 ##  Request & Response 
